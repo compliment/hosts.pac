@@ -1,6 +1,7 @@
 function FindProxyForURL(url, host) {
    if (
-		  shExpMatch(host, "101com.com") ||
+		  shExpMatch(host, "doubleclick.net") ||
+	   	  shExpMatch(host, "101com.com") ||
 		  shExpMatch(host, "*.101com.com") ||
 		  shExpMatch(host, "101order.com") ||
 		  shExpMatch(host, "*.101order.com") ||
